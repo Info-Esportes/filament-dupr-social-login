@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev:styles": "npx tailwindcss -i resources/css/index.css -o resources/dist/filament-dupr-social-login.css --postcss --watch",
+        "dev:scripts": "node bin/build.js --dev",
+        "build:styles": "npx tailwindcss -i resources/css/index.css -o resources/dist/filament-dupr-social-login.css --postcss --minify && npm run purge",
+        "build:scripts": "node bin/build.js",
+        "purge": "filament-purge -i resources/dist/filament-dupr-social-login.css -o resources/dist/filament-dupr-social-login.css -v 3.x",
+        "dev": "npm-run-all --parallel dev:*",
+        "build": "npm-run-all build:*"
+    },
+    "devDependencies": {
+        "@awcodes/filament-plugin-purge": "^1.1.1",
+        "@tailwindcss/cli": "^4.0.0",
+        "esbuild": "^0.27.2",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^2.7.1",
+        "prettier-plugin-tailwindcss": "^0.1.13",
+        "tailwindcss": "^4.0.0"
+    }
+}
