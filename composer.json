@@ -17,6 +17,11 @@
             "name": "Luiz Cristino",
             "email": "luiz.cristino@infoesportes.com.br",
             "role": "Maintainer"
+        },
+        {
+            "name": "Lucas Pinheiro",
+            "email": "lucas.pinheiro@infoesportes.com.br",
+            "role": "Maintainer"
         }
     ],
     "require": {
