@@ -1,9 +1,14 @@
 {
     "name": "infoesportes/filament-dupr-social-login",
     "description": "This is my package filament-dupr-social-login",
+    "version": "v0.0.1",
     "keywords": [
-        "infoesportes",
+        "dupr",
+        "api",
+        "partner",
+        "pickleball",
         "laravel",
+        "filament",
         "filament-dupr-social-login"
     ],
     "homepage": "https://github.com/Info-Esportes/filament-dupr-social-login",
